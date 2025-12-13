@@ -5,12 +5,12 @@ import Foundation
 
 class User {
   private let id: UUID 
-  private(set) var username: String
+  private(set) let username: String
   private var isOnline: Bool = false
 
   init(username: String) {
     self.username = username
-    self.id = UUID()
+    id = UUID()
   }
 
   func toggleOnlineStatus() {
