@@ -4,13 +4,18 @@ class AppSession {
   private var tempoDeUsoEmSegundos: Int = 0
 
   func adicionarTempo(segundos: Int) {
+
+    if segundo > 0 {
     tempoDeUsoEmSegundos+=segundos
+    } else {
+      print("Valor inválido. Tente novamente.")
+    }
   }
 }
 
-let AppSessionTikTok = AppSession()
+let appSessionTikTok = AppSession()
 
-AppSessionTikTok.adicionarTempo(segundos: 40)
-AppSessionTikTok.adicionarTempo(segundos: 20)
-AppSessionTikTok.adicionarTempo(segundos: 10)
+appSessionTikTok.adicionarTempo(segundos: 40)
+appSessionTikTok.adicionarTempo(segundos: 20)
+appSessionTikTok.adicionarTempo(segundos: 10)
 
