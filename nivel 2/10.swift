@@ -1,6 +1,3 @@
-// Crie uma classe Produto com nome (String) e estoque (Int, variável). Crie um método vender(quantidade: Int) que diminua o estoque. Use uma estrutura de controle (if) para garantir que a venda não resulte em estoque negativo.
-
-
 class Produto {
   private(set) let name: String 
   private(set) var stock: Int

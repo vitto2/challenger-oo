@@ -1,6 +1,3 @@
-// Crie uma classe base ViewComponent. Crie uma classe filha CustomButton que herde de ViewComponent e adicione a ela uma propriedade titulo (String
-// ). Crie uma instância de CustomButton e acesse um método (vazio, só para simular) chamado renderizar() que você definiu em ViewComponent
-// .
 
 class ViewComponent { 
   func renderizar() { 

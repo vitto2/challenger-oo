@@ -1,5 +1,3 @@
-// Crie uma classe DataManager com uma propriedade variável dadosArmazenados(String). Crie uma instância (cache) dessa classe. Crie uma segunda variável (backupCache) que referencie a primeira. Mude dadosArmazenados através de cache. Imprima o valor em backupCache para provar que a mudança foi compartilhada.
-
 
 class DataManager {
   var dadosArmazenados: String
