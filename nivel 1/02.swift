@@ -1,6 +1,3 @@
-//Adicione à classe Usuario uma propriedade variável isOnline (Bool, inicializada como false ). Crie um método fazerLogin() que mude isOnline para true e imprima uma mensagem.
-
-
 import Foundation 
 
 class User {

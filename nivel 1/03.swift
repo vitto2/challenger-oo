@@ -1,5 +1,3 @@
-//Na classe Usuario, adicione as propriedades primeiroNome e sobrenome(String). Crie uma propriedade computada nomeCompleto (somente leitura, let implícito) que combine os dois.
-
 import Foundation 
 
 class User {

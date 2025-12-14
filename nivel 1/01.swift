@@ -1,4 +1,3 @@
-//Crie uma classe Usuario com propriedades constantes id(Int) e username (String). Implemente um init que exija esses dois valores. Crie uma instância e imprima o username.
 import Foundation 
 
 class User {
