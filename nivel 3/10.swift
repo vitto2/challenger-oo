@@ -1,4 +1,5 @@
 // Crie uma classe Booking (Reserva) com codigo (String), dataCheckin (String), e dataCheckout (String). Implemente um init que receba os 3. Após a criação da instância, imprima a diferença de dias (simulada por um simples Int) entre as datas usando um método chamado calcularDuracao().
+import Foundation
 
 class Booking {
   private let code: String
